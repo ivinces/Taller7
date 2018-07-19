@@ -1,9 +1,10 @@
-package SinPatrones;
+package ConPatrones2;
+
+import SinPatrones.*;
 
 public class Articulo {
 
-	protected String nombre;
-	private String descripcion;
+	private String nombre;
 
     public String getNombre() {
         return nombre;
@@ -28,6 +29,7 @@ public class Articulo {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+	private String descripcion;
 	private double precio;
 	private String tipo; //Puede ser plato, bebida, botana, combo1, combo2, etc
 	
