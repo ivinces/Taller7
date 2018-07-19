@@ -18,9 +18,13 @@ public class Sistema {
 		while (! opcion.equals("3")){
 			if (opcion.equals("1")){
 				System.out.println("Bienvenido a la Esquina de Ales");
+				EsquinaDeAles esqales= new EsquinaDeAles();
+				esqales.fabricarArrozConMenestraYPollo();
 //				Preparar un Arroz con menestra y pollo
 			}else if(opcion.equals("2")){
 				System.out.println("Bienvenido a Pollos Gus");
+				PollosGus gus= new PollosGus();
+				gus.fabricarArrozConMenestraYPollo();
 //				Preparar un Arroz con menestra y pollo
 			}else{
 				System.out.println("Opción incorrecta");
