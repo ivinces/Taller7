@@ -1,8 +1,8 @@
 package ConPatrones;
 
-public class EsquinaDeAles {
+public class EsquinaDeAles extends Combo{
 	
-	public EsquinaDeAles() {
+	public EsquinaDeAles(){
 		
 	}
 	
@@ -22,5 +22,14 @@ public class EsquinaDeAles {
 	}
 	
 	//Muchos otros metodos parecidos para otros productos
-	
+	@Override
+    public void armarCombo(Articulo a1, Articulo a2) {
+         System.out.println("El combo armado es: "+a1.getNombre() + " + " + a2.getNombre());
+    }
+
+	@Override
+	public void crear() {
+		// TODO Auto-generated method stub
+		
+	}
 }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ConPatrones2;
+package ConPatrones;
 
 /**
  *
@@ -17,4 +17,10 @@ public class Composite extends Combo{
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
        
     }
+
+	@Override
+	public void crear() {
+		// TODO Auto-generated method stub
+		
+	}
 }

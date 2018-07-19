@@ -19,12 +19,16 @@ public class Sistema {
 			if (opcion.equals("1")){
 				System.out.println("Bienvenido a la Esquina de Ales");
 				EsquinaDeAles esqales= new EsquinaDeAles();
-				esqales.fabricarArrozConMenestraYPollo();
+				System.out.println("//////////////////");
+				esqales.fabricarArrozConMenestraYPollo().crear();;
+				System.out.println("//////////////////");
 //				Preparar un Arroz con menestra y pollo
 			}else if(opcion.equals("2")){
 				System.out.println("Bienvenido a Pollos Gus");
 				PollosGus gus= new PollosGus();
-				gus.fabricarArrozConMenestraYPollo();
+				System.out.println("//////////////////");
+				gus.fabricarArrozConMenestraYPollo().crear();;
+				System.out.println("//////////////////");
 //				Preparar un Arroz con menestra y pollo
 			}else{
 				System.out.println("Opción incorrecta");
