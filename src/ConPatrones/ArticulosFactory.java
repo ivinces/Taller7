@@ -7,8 +7,8 @@ public class ArticulosFactory {
 	         return null;
 	      }		
 	      
-	      if(articulo.equalsIgnoreCase("CIRCLE")){
-	         return new Circle();
+	      if(articulo.equalsIgnoreCase("Arroz con menestra")){
+	         return new ArrozConMenestra();
 	         
 	      }else if(articulo.equalsIgnoreCase("RECTANGLE")){
 	         return new Rectangle();

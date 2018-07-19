@@ -1,5 +1,5 @@
 package ConPatrones;
 
-public class PolloAsado {
+public class PolloAsado extends Articulo {
 
 }
