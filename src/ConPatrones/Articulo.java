@@ -1,6 +1,6 @@
 package ConPatrones;
 
-public abstract class Articulo {
+public abstract class Articulo implements IArticulo{
 
 	private String nombre;
 	private String descripcion;
@@ -19,4 +19,8 @@ public abstract class Articulo {
 	public double getPrecio() {
 		return precio;
 	}
+	
+	public abstract void crear();
+
+	
 }
