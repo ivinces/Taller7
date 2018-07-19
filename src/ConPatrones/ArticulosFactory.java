@@ -10,10 +10,10 @@ public class ArticulosFactory {
 	      if(articulo.equalsIgnoreCase("CIRCLE")){
 	         return new Circle();
 	         
-	      }else if(shapeType.equalsIgnoreCase("RECTANGLE")){
+	      }else if(articulo.equalsIgnoreCase("RECTANGLE")){
 	         return new Rectangle();
 	         
-	      }else if(shapeType.equalsIgnoreCase("SQUARE")){
+	      }else if(articulo.equalsIgnoreCase("SQUARE")){
 	         return new Square();
 	      }
 	      
