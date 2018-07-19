@@ -10,11 +10,11 @@ public class ArticulosFactory {
 	      if(articulo.equalsIgnoreCase("Arroz con menestra")){
 	         return new ArrozConMenestra();
 	         
-	      }else if(articulo.equalsIgnoreCase("RECTANGLE")){
-	         return new Rectangle();
+	      }else if(articulo.equalsIgnoreCase("Arroz Con Menestra y Pollo")){
+	         return new ArrozConMenestrayPollo();
 	         
-	      }else if(articulo.equalsIgnoreCase("SQUARE")){
-	         return new Square();
+	      }else if(articulo.equalsIgnoreCase("Pollo Asado")){
+	         return new PolloAsado();
 	      }
 	      
 	      return null;

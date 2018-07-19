@@ -1,6 +1,6 @@
 package ConPatrones;
 
-public class Articulo {
+public abstract class Articulo {
 
 	private String nombre;
 	private String descripcion;
